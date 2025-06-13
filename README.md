@@ -46,4 +46,91 @@ There are about a dozen official templates available:
 ```bash
 # Install using the default template.
 npx create-react-router@latest --template remix-run/react-router-templates/default
+# Need to install the following packages:
+# create-react-router@7.6.2
+# Ok to proceed? (y)
+y
+# 
+# npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory ...
+# npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+# 
+#          create-react-router v7.6.2
+# 
+#    dir   Where should we create your new project?
+.
+# 
+#       ◼  Template: Using remix-run/react-router-templates/default...
+#       ✔  Template copied
+# 
+#  overwrite   Your project directory contains files that will be overwritten by
+#              this template (you can force with `--overwrite`)
+# 
+#              Files that would be overwritten:
+#                .gitignore
+#                README.md
+# 
+#              Do you wish to continue?
+#              
+Yes
+#       ◼  Nice! Git has already been initialized
+# 
+#   deps   Install dependencies with npm?
+Yes
+# 
+#       ✔  Dependencies installed
+# 
+#   done   That's it!
+#          Check out README.md for development and deploy instructions.
+# 
+#          Join the community at https://rmx.as/discord
+```
+
+<!-- node_modules is 119,042,700 bytes (136.8 MB on disk) for 6,735 items -->
+
+Store Remix's default README.md and .gitignore for future reference, and use
+a more comprehensive .gitignore instead.
+
+```bash
+# Move Remix's default README.md and .gitignore to an appendices folder.
+mkdir -p docs/appendices/ && \
+mv README.md docs/appendices/01-remix-default-readme.md && \
+mv .gitignore docs/appendices/02-remix-default-gitignore.txt
+# (no output)
+
+# Use `cat` with `EOF` to create a more comprehensive .gitignore file.
+cat > .gitignore <<EOF
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# OS files, security and certificates.
+.DS_Store
+*.pem
+
+# Dependencies.
+/node_modules/
+.pnp
+.pnp.js
+
+# Test results and coverage.
+coverage.json
+/coverage/
+
+# React Router (Remix) build artifacts.
+/.react-router/
+/build/
+
+# Other build artifacts.
+dist/
+
+# Debug and error logs.
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables.
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+EOF
+# (no output)
 ```

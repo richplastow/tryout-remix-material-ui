@@ -5,13 +5,17 @@
 *.pem
 
 # Dependencies.
-node_modules/
+/node_modules/
 .pnp
 .pnp.js
 
 # Test results and coverage.
 coverage.json
-coverage/
+/coverage/
+
+# React Router (Remix) build artifacts.
+/.react-router/
+/build/
 
 # Other build artifacts.
 dist/
