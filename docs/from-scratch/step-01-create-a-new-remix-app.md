@@ -137,6 +137,7 @@ Your default browser should open at <http://localhost:5173> and show a fresh
 React Router app:
 
 <a id="default-react-router-app"></a>
+
 ![Default React Router app](./step-01-02-default-dev-in-firefox.png)
 
 <!-- TODO check hot reloading -->
@@ -164,11 +165,11 @@ npm run typecheck
 # 
 # Found 1 error in app/bad-type.ts:1
 
-# Create a file with a TypeScript error.
+# Fix the TypeScript error.
 echo "const num: number = 123; // That's better" > app/bad-type.ts
 # (no output)
 
-# Check that type-checking is working.
+# The typecheck script should no longer find any problems.
 npm run typecheck
 # > typecheck
 # > react-router typegen && tsc
@@ -178,7 +179,7 @@ rm app/bad-type.ts
 # (no output)
 ```
 
-Next make sure that the `"build"` script works - the top level build/ folder
+Next, make sure that the `"build"` script works - the top level build/ folder
 should be created.
 
 ```bash
