@@ -1,4 +1,4 @@
-## From scratch
+# From scratch
 
 [^ README](../../README.md)
 
@@ -8,4 +8,7 @@
 
 ---
 
+## Steps
+
 1. [Create a new Remix app](./step-01-create-a-new-remix-app.md)
+2. [Start using Material UI](./step-02-start-using-material-ui.md)

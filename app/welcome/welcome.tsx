@@ -1,3 +1,5 @@
+import Button from "@mui/material/Button";
+import WavingHandIcon from "@mui/icons-material/WavingHand";
 import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
 
@@ -5,6 +7,7 @@ export function Welcome() {
   return (
     <main className="flex items-center justify-center pt-16 pb-4">
       <div className="flex-1 flex flex-col items-center gap-16 min-h-0">
+        <Button endIcon={<WavingHandIcon />} variant="contained">Hello Remix and Material UI</Button>
         <header className="flex flex-col items-center gap-9">
           <div className="w-[500px] max-w-[100vw] p-4">
             <img

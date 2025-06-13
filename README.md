@@ -21,6 +21,7 @@ a starting point for your own projects.
 - [React Router](https://reactrouter.com/home)
 - [Material UI Overview](https://mui.com/material-ui/getting-started/)
 - [Google Material Design M3](https://m3.material.io/)
+- [Emotion Introduction](https://emotion.sh/docs/introduction)
 - [Markdown Getting Started](https://www.markdownguide.org/getting-started/)
 - [React Quick Start](https://react.dev/learn)
 - [TypeScript Documentation](https://www.typescriptlang.org/docs/)

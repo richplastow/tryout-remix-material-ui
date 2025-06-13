@@ -59,7 +59,7 @@ Yes
 #          Join the community at https://rmx.as/discord
 ```
 
-<!-- node_modules is 119,042,700 bytes (136.8 MB on disk) for 6,735 items -->
+<!-- node_modules/ is 119,042,700 bytes (136.8 MB on disk) for 6,735 items -->
 
 Store Remix's default README.md and .gitignore for future reference, and use
 a more comprehensive .gitignore instead.
@@ -236,3 +236,5 @@ npm start
 
 Open your browser at <http://localhost:3000> and you should see the same
 default React Router app [as before.](#default-react-router-app)
+
+<!-- node_modules/ is 122,622,487 bytes (140.4 MB on disk) for 6,758 items -->
