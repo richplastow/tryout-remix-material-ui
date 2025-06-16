@@ -90,4 +90,4 @@ npm run dev
 
 At <http://localhost:5173> you should see the new button:
 
-!['Hello Remix and Material UI' button](./step-2-1-mui-button-dev-in-safari.png)
+!['Hello Remix and Material UI' button](./assets/step-02-01-mui-button-dev-in-safari.png)

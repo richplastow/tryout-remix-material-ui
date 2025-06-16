@@ -7,8 +7,8 @@
 ---
 
 First, read React Router's
-['Decision Advice'](https://reactrouter.com/start/modes#decision-advice) to
-decide which of the 3 modes to use. tryout-remix-material-ui uses the
+['Decision Advice'](https://reactrouter.com/start/modes#decision-advice)
+to decide which of the 3 modes to use. tryout-remix-material-ui uses the
 'Framework' mode:  
 <https://reactrouter.com/start/framework/installation>
 
@@ -138,7 +138,7 @@ React Router app:
 
 <a id="default-react-router-app"></a>
 
-![Default React Router app](./step-01-02-default-dev-in-firefox.png)
+![Default React Router app](./assets/step-01-02-default-dev-in-firefox.png)
 
 <!-- TODO check hot reloading -->
 
